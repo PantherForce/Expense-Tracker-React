@@ -5,11 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { Header } from './components/Header';
+import { Balance } from './components/Balance';
+import { Income } from './components/Income';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
     <Header />
+    <Balance/>
+    <Income/>
   </StrictMode>
 );
 

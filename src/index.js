@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import { Header } from './components/Header';
 import { Balance } from './components/Balance';
 import { Income } from './components/Income';
+import { Transcationlist } from './components/Transcationlist';
+import { Footer } from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +16,8 @@ root.render(
     <Header />
     <Balance/>
     <Income/>
+    <Transcationlist/>
+    <Footer/>
   </StrictMode>
 );
 
